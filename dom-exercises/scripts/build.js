@@ -40,3 +40,9 @@ function removeRow() {
     console.log("remove");
     myTable.deleteRow(1);
 }
+
+window.addEventListener('resize', function () {
+    console.clear();
+    console.log("Height " + window.innerHeight);
+    console.log("Width " + window.innerWidth);
+});
